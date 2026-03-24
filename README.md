@@ -27,4 +27,8 @@ Our research identifies a "Biophysical Bottleneck" and "Mass Compression" within
    4.Step 2: Run Statistical Suite:
    python evolutionary_dynamics.py
    Key Validations IncludedIsoelectric Point (pI) Bottleneck: Confirmed via Levene’s Test for variance compression in resistant clades.Molecular Weight (MW) Compression: Validated via Mann-Whitney U test (reduction in average mass).Resistome Partitioning: Validated via Fisher’s Exact Test (p < 0.0001).
+   ## 📂 Data Availability
+The cds for the 67 *Acinetobacter* isolates (used as input for `core.py` and `stitch.py`) are retrieved from the **EnsemblBacteria (http://bacteria.ensembl.org/index.html)**. 
+
+To maintain repository performance, the large-scale sequence alignments and the final `point_results.csv` are available from the **corresponding author upon reasonable request** or will be released upon formal publication.
    🎓 AffiliationDepartment of Biochemistry, School of Bioengineering and Biosciences,Lovely Professional University (LPU), Punjab, India.
